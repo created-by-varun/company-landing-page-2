@@ -1,3 +1,4 @@
+/* ===== PRELOADER ===== */
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
     setTimeout(function(){
