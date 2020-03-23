@@ -14,7 +14,7 @@
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(18, 67, 100);
+    border-bottom:12px solid rgb(9, 33, 49);
     border-radius:50%;
     margin:0;
 }
@@ -36,10 +36,10 @@
     display:inline-block;
 }
 .box1 {
-    background: rgb(18, 67, 100);
+    background: rgb(9, 33, 49);
 }
 .box2 {
-    background:rgb(18, 67, 100);
+    background:rgb(9, 33, 49);
     margin-left:-5px;
 }
 
