@@ -242,3 +242,7 @@
     background: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80) no-repeat;
     background-size: cover;
 }
+
+html {
+    scroll-behavior: smooth;
+}
