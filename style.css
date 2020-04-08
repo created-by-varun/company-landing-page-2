@@ -247,10 +247,6 @@ html {
     scroll-behavior: smooth;
 }
 
-#careersForm input{
-    border: black;
-}
-
 p{
     text-align: justify;
 }
