@@ -540,13 +540,25 @@
 		</div>
 
 		<form action="careers.php" method="POST" class="text-center">
-			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline text-black w-auto px-10 container" type="text" placeholder="Contact Number" name="num"> <br>
-			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline text-black w-auto px-10 container" type="text" placeholder="Name" name="name"> <br>
-			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline text-black w-auto px-10 container" type="text" placeholder="Year of Graduation" name="grad"> <br>
-			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline text-black w-auto px-10 container" type="email" placeholder="Email" name="email"> <br> <br>
-			Upload your Resume: <br><input type="file" name="resume"> <br> <br>
-			<textarea class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline text-black w-auto px-10 container" type="textarea" placeholder="Cover letter" name="cover" rows="7"></textarea> <br> <br>
+
+			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" type="text" placeholder="Name*" name="name" required data-aos="fade-up" data-aos-duration="500"> <br>
+
+			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" type="text" placeholder="Contact Number*" name="num" required data-aos="fade-up" data-aos-duration="700"> <br>
+
+			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" type="text" placeholder="Alternate Number" name="alt-num" data-aos="fade-up" data-aos-duration="900"> <br>
+
+			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" type="text" placeholder="Year of Graduation*" name="grad" required data-aos="fade-up" data-aos-duration="1100"> <br>
+
+			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" type="email" placeholder="Email*" name="email" required data-aos="fade-up" data-aos-duration="1300"> <br>
+
+			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" type="email" placeholder="Alternate Email" name="alt-email" data-aos="fade-up" data-aos-duration="1500"> <br>
+
+			<input class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" type="text" placeholder="Resume Link*" name="resume" required data-aos="fade-up" data-aos-duration="1700"> <br>
+
+			<input type="text" class="mt-5 shadow p-2 border focus:outline-none focus:shadow-outline w-auto px-10 container" placeholder="Cover Letter Link*" name="cover" required data-aos="fade-up"/ data-aos-duration="1900"> <br> <br>
+
 			<button type="submit" name="submit" class="gradient p-5 py-4 shadow text-white font-bold rounded-full">SUBMIT</button>
+
 		</form>
 	</div>
 
