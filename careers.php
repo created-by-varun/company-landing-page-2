@@ -14,7 +14,7 @@
 
 	$subject = 'Job Application';
 
-	$message = "Name of Candidate: ".$name."\n" . "College Name: ".$college."\n" . "Year of Graduation: ".$grad."\n" . "Graduation Specialiation: ".$specialization."\n" ."\n"."Email: ".$email."\n". "Mobile Number: ".$num. "Alternate Number: ".$num2."\n". "E-mail: ".$email."\n". "Alternate e-mail: ".$email2."\n"."Resume Link: ".$resume."\n". "Cover Letter Link: ".$cover;
+	$message = "Name of Candidate: ".$name."\n" . "College Name: ".$college."\n" . "Year of Graduation: ".$grad."\n" . "Graduation Specialiation: ".$specialization."\n" ."\n"."Email: ".$email."\n". "Mobile Number: ".$num. "Alternate Number: ".$num2."\n". "E-mail: ".$email."\n". "Alternate e-mail: ".$email2."\n"."Resume Link: ".$resume."\n". "Cover Letter Link: ".$cover."\n";
 	
 	mail($to, $subject, $message);
 ?>
